@@ -25,11 +25,16 @@ export default {
 				},
 				{
 					id: 2,
+					value: 'bi',
+					name: 'Bi development',
+				},
+				{
+					id: 3,
 					value: 'branding',
 					name: 'Data/web scraping',
 				},
 				{
-					id: 3,
+					id: 4,
 					value: 'web',
 					name: 'Web development',
 				},
