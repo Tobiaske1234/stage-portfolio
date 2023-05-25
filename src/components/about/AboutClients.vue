@@ -7,47 +7,31 @@ export default {
 	},
 	data: () => {
 		return {
-			clientsHeading: 'Some of the brands I have worked with',
+			clientsHeading: 'Bedrijven waarvoor ik heb gewerkt:',
 			clients: [
 				{
 					id: 1,
-					title: 'Amazon',
-					img: require('@/assets/images/brands/amazon_gray.png'),
+					title: 'Accordis',
+					img: require('@/assets/images/brands/Accordis.jpg'),
+					link: 'https://www.accordis.nl/',
 				},
 				{
 					id: 2,
-					title: 'Sony',
-					img: require('@/assets/images/brands/sony_gray.png'),
+					title: 'Maxserv',
+					img: require('@/assets/images/brands/maxserv.png'),
+					link: 'https://www.maxserv.nl/',
 				},
 				{
 					id: 3,
-					title: 'Adidas',
-					img: require('@/assets/images/brands/adidas_gray.png'),
+					title: 'Driessen Leder',
+					img: require('@/assets/images/brands/driessenleder.webp'),
+					link: 'https://www.driessenleder.nl/',
 				},
 				{
 					id: 4,
-					title: 'FILA',
-					img: require('@/assets/images/brands/fila_gray.png'),
-				},
-				{
-					id: 5,
-					title: 'NB',
-					img: require('@/assets/images/brands/nb_gray.png'),
-				},
-				{
-					id: 6,
-					title: 'SAMSUNG',
-					img: require('@/assets/images/brands/samsung_gray.png'),
-				},
-				{
-					id: 7,
-					title: 'CANON',
-					img: require('@/assets/images/brands/canon_gray.png'),
-				},
-				{
-					id: 7,
-					title: 'PUMA',
-					img: require('@/assets/images/brands/puma_gray.png'),
+					title: 'SD Styling',
+					img: require('@/assets/images/brands/sdstyling.png'),
+					link: 'https://www.sdstyling.nl/',
 				},
 			],
 		};

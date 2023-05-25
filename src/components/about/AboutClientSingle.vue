@@ -9,7 +9,9 @@ export default {
 		<img
 			:src="client.img"
 			:alt="client.title"
-			class="w-64 py-5 px-10 border border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-8 cursor-pointer dark:bg-secondary-light"
+			:href="client.link"
+			target="_blank"
+			class="w-64 h-40 object-contain py-5 px-10 border border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-8 cursor-pointer dark:bg-secondary-light"
 		/>
 	</div>
 </template>
