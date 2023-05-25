@@ -16,21 +16,21 @@ export default { components: { Button, FormInput, FormTextarea } };
 				Contact Form
 			</p>
 			<form action="#" class="font-general-regular space-y-7">
-				<FormInput label="Full Name" inputIdentifier="name" />
+				<FormInput label="Volledige naam" inputIdentifier="name" />
 				<FormInput
 					label="Email"
 					inputIdentifier="email"
 					inputType="email"
 				/>
-				<FormInput label="Subject" inputIdentifier="subject" />
-				<FormTextarea label="Message" textareaIdentifier="message" />
+				<FormInput label="Onderwerp" inputIdentifier="subject" />
+				<FormTextarea label="Bericht" textareaIdentifier="message" />
 
 				<div>
 					<Button
-						title="Send Message"
+						title="Verstuur bericht"
 						class="px-4 py-2.5 text-white tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg duration-500"
 						type="submit"
-						aria-label="Send Message"
+						aria-label="Verstuur bericht"
 					/>
 				</div>
 			</form>
