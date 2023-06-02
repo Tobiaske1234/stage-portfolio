@@ -4,7 +4,13 @@ import router from './router';
 import './assets/css/app.css';
 import BackToTop from 'vue-backtotop';
 import { inject } from '@vercel/analytics';
- 
+import Hotjar from '@hotjar/browser';
+
+const siteId = 3518321;
+const hotjarVersion = 6;
+
+Hotjar.init(siteId, hotjarVersion);
+
 inject();
 
 const feather = require('feather-icons');
