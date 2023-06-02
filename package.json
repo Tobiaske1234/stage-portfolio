@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.3",
+    "@vercel/analytics": "^1.0.1",
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-plugin-router": "^5.0.8",
